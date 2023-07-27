@@ -1,0 +1,138 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100&family=Fasthand&display=swap);
+html, section, body     {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+body::-webkit-scrollbar {
+    width: 0px;
+}
+section {
+    overflow: auto;
+    perspective: 1px;
+    transform-style: preserve-3d;
+background-color: var(--other-body-color) !important;
+
+}
+
+.parallax {
+    padding: 10%;
+    max-width: 40em;
+    margin-left: 70px;
+    font-family: Roboto, sans-serif;
+    line-height: 1;
+    transform-style: preserve-3d;
+}
+.parallax :nth-child(1) {
+    transform: translateZ(-0.4px) scale(1.4);
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 10px;
+    font-size: 70px;
+    z-index: -400;
+    top: 200px;
+    left: 200px;
+}
+.parallax :nth-child(2) {
+    transform: translateZ(0.2px) scale(0.8);
+    z-index: 200;
+    top: 200px;
+    left: 800px;
+}
+.parallax :nth-child(3) {
+    transform: translateZ(0.3px) scale(0.7);
+  z-index: 300;
+  top: 900px;
+  left: 600px;
+}
+.parallax :nth-child(4) {
+    transform: translateZ(0.1px) scale(0.9);
+    z-index: 100;
+    top: 500px;
+    left: 100px;
+}
+.parallax :nth-child(5) {
+    transform: translateZ(-2px) scale(3);
+    z-index: -2000;
+    top: 2000px;
+    left: 1000px;
+}
+.parallax :nth-child(6) {
+    transform: translateZ(0.4px) scale(0.6);
+    z-index: 400;
+    top: 600px;
+    left: 300px;
+}
+.parallax :nth-child(7) {
+    transform: translateZ(-1px) scale(2);
+    z-index: -1000;
+    top: 400px;
+    left: 1000px;
+}
+.parallax :nth-child(8) {
+    transform: translateZ(-0.4px) scale(1.4);
+    z-index: -400;
+    top: 100px;
+    left: 1200px;
+}
+.parallax :nth-child(9) {
+    transform: translateZ(0.4px) scale(0.6);
+    z-index: 400;
+    top: 700px;
+    left: 500px;
+}
+.parallax :nth-child(10) {
+    transform: translateZ(-1px) scale(2);
+  z-index: -1000;
+  top: 1600px;
+  left: 100px;
+}
+.parallax :nth-child(11) {
+    transform: translateZ(-1px) scale(1.7);
+    z-index: -1000;
+    top: 2400px;
+    left: 100px;
+}
+.parallax * {
+    position: absolute;
+}
+
+#sechead, #secb {
+    font-weight: 600 !important;
+    margin: 0 !important;
+    color: #7ccbff !important;
+}
+
+#sechead {
+    font-size: 5em !important;
+    color: #BAD7E9 !important;
+    font-weight: 500 !important;
+}
+
+#secb {
+    font-size: 3em !important;
+    line-height: 90px;
+    transform: translateZ(0.4px) scale(0.8) translateY(200px) !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #91d4d9 !important;
+    z-index: 200 !important;
+}
+#sec2{
+    font-size: 3em !important;
+    line-height: 90px;
+    transform: translateZ(0.2px) scale(0.8) !important;
+    font-family: 'Fasthand', cursive;
+    color: #3bf8ff !important;
+    z-index: 200 !important;
+}
+
+#sec3{
+    font-size: 3em !important;
+    line-height: 90px;
+    transform: translateZ(0.2px) scale(0.8) !important;
+    color: #91d4d9 !important;
+    z-index: 200 !important;
+
+}

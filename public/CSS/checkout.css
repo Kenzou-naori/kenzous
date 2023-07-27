@@ -1,0 +1,118 @@
+#checkout{
+    display: flex;
+    flex-direction: row;
+}
+#checkout .check-left{
+    flex: 0 0 60%;
+}
+#checkout .check-left form{
+    max-width: 500px;
+}
+textarea.form-control{
+        resize: none;
+        height: 100px !important;
+    }
+    /* .mb-3.address{
+        height: 200px;
+    } */
+
+
+.checkout ul{
+    list-style: none;
+}
+.checkout .items .infoWrap {
+    display: table;
+    width: 100%;
+  }
+  .checkout .items .cartSection {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .checkout .items .cartSection .itemNumber {
+    font-size: .75em;
+    color: #777;
+    margin-bottom: .5em;
+  }
+  .checkout .items .cartSection h3 {
+    font-size: 1em;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .025em;
+    width: 500px;
+  }
+  .checkout .items .cartSection p {
+    display: inline-block;
+    font-size: .85em;
+    color: #777777;
+    font-family: "Montserrat", sans-serif;
+  }
+  .checkout .items .cartSection p .quantity {
+    font-weight: bold;
+    color: #333;
+  }
+  .checkout .items .cartSection p.stockStatus {
+    color: #82CA9C;
+    font-weight: bold;
+    padding: .5em 0 0 1em;
+    text-transform: uppercase;
+  }
+  .checkout .items .cartSection p.stockStatus.out {
+    color: #ff531f;
+  }
+  .checkout .items .cartSection .itemImg {
+    width: 4em;
+    float: left;
+  }
+  .checkout .items .cartSection.qtyWrap, .checkout .items .cartSection.prodTotal {
+    text-align: center;
+  }
+  .checkout .items .cartSection.qtyWrap p, .checkout .items .cartSection.prodTotal p {
+    font-weight: bold;
+    font-size: 1em;
+  }
+  .checkout .items .cartSection input.quantity {
+    width: 3.4em;
+    text-align: center;
+    font-size: 1em;
+    padding: .25em;
+    margin: 1em .5em 0 0;
+  }
+  .checkout .items .cartSection .itemImg {
+    width: 8em;
+    display: inline;
+    padding-right: 1em;
+  }
+
+  .subtotal .totalRow {
+    padding: .5em;
+    text-align: right;
+
+  }
+  .subtotal .totalRow.final {
+    font-size: 1.25em;
+    font-weight: bold;
+  }
+  .subtotal .totalRow span {
+    display: inline-block;
+    padding: 0 0 0 1em;
+    text-align: right;
+  }
+  .subtotal .totalRow .label {
+    font-family: "Montserrat", sans-serif;
+    font-size: .85em;
+    text-transform: uppercase;
+    color: #777;
+  }
+  .subtotal .totalRow .value {
+    letter-spacing: -.025em;
+    width: 35%;
+  }
+  .subtotal .totalRow button{
+      background-color: var(--sigma-color);
+      padding: .5em;
+      color: white;
+      border-radius: 10px;
+      position: relative;
+
+  }

@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+.detail {
+    display: flex;
+    background: rgb(81, 80, 80);
+}
+
+.detail>* {
+    flex: 1 2 50%;
+    height: 500px;
+    position: relative;
+}
+
+.detail .left {
+    padding-top: 10px;
+    justify-content: center;
+    max-width: 500px;
+    padding-inline: 100px;
+}
+
+
+.detail .left .product-name h2 {
+    font-family: "Poppins", sans-serif;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    white-space: nowrap;
+    overflow: visible;
+    text-align: left;
+    font-size: 50px;
+    color: #ffffff;
+}
+.detail .left .product-name h2 span{
+    font-size: 13px;
+    text-shadow: none;
+    background-color: #43434392;
+    padding: 2px;
+    border-radius: 10px;
+    color: #e1e1e1;
+}
+.detail .left .product-price{
+
+    margin-top: 60px;
+}
+.detail .left .product-price span {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+}
+.detail .left .button-redirect{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.detail .left .button-redirect .cart-redirect, .buy-redirect{
+    max-width: 300px;
+}
+.detail .left .button-redirect .cart-redirect button , .buy-redirect a{
+    padding: 10px;
+    width: 250px;
+    height: 50px;
+    font-weight: 500;
+    transform: translateX(-23px);
+}
+.btn.btn-cart{
+    border: 2px solid #dbdbdb;
+    color: #fefefe;
+}
+.btn.btn-cart:hover{
+    background-color: #dbdbdb;
+}
+.btn.btn-buy{
+    background-color: #ffffff;
+    color: black;
+}
+.btn.btn-buy:hover{
+    background-color: #b7b7b7;
+    color: black;
+}
+.detail .middle{
+    padding-top: 40px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.detail .middle img{
+    width: 300px;
+    background-color: white;
+    border-radius: 20px;
+}
+.detail .middle .variant{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    background-color: #ffffff;
+    width: 400px;
+    height: 50px;
+    border-radius: 6px;
+}
+.detail .middle .variant .box{
+    border: solid 1px red;
+    height: 50px;
+    width: 50px;
+}
+
+.detail .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.detail .right span{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+}
